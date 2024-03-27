@@ -28,3 +28,6 @@ def logout_user(request):
     logout(request)
     messages.success(request, ('Logged Out Succesfully'))
     return redirect('home')
+
+def register_user(request):
+    pass
